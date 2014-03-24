@@ -1,7 +1,13 @@
 prompt
 ======
 
-For use in PS1. Returns a concatenated version of $(pwd) based on a max length parameter.
+For use in PS1. Returns a concatenated version of $(pwd) based on a max length parameter. 
+
+features
+========
+
+* elides intermediate directories in favor of longer ones.
+* `/Users/cvandyck/code/go/src/github.com/collinvandyck/prompt` -> `~/.../github.com/collinvandyck/prompt`
 
 usage
 =====
